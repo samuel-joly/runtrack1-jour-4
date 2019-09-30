@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" media="screen and (min-device-width: 480px)" href="informations-inscription.css"/>
+		<title>Informations-inscription - La Plateforme_ Marseille</title>
+	</head>
+
+	<body>
+		
+		<header>
+			<img src="Images/laplateforme-long2.png" />
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="index.html">Qui sommes-nous ?</a></li>
+					<li>
+						<a href="#">Les Formations</a>
+						<ul>
+							<li><a href="index.html">Coding School</a></li>
+							<li><a href="index.html">Centrale Digital Lab</a></li>
+							<li><a href="index.html">Executive Education</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html" class="en-cours">Informations - Inscription</a></li>
+				</ul>
+			</nav>
+		</header>
+
+        <section id='info'>
+            <h1 id='topTitle'>Vous souhaitez des informations ou candidater à <span id='plateforme'>La Plateforme_</span> ?</h1>
+			
+			
+			<div id='formWrapper'>
+				<form>
+					<h1>Remplissez ce formulaire et nous reviendrons vers <span id='plateforme'>vous</span></h1>
+					
+					<select name='formations'>
+						<option name='default' selected> Sélectionnez formation qui vous intéresse</option>
+						<option> Coding School</option>
+						<option> Centrale digital lab</option>
+						<option> Executive Education</option>
+				   </select>
+
+					<div>
+						<input type='text' name='name' placeholder=' Votre Nom'>
+						<input type='text' name='secondName' placeholder=' Votre Prénom'>
+					</div>
+					
+					<div>
+						<input type='text' name='mail' placeholder=' Votre Email'>
+						<input type='text' name='tel' placeholder=' Votre Téléphone'>
+					</div>
+					
+					
+					<input type='text' name='adresse' placeholder=' Votre Adresse' class='fullWidth'>
+					
+					<div>
+						<input type='text' name='codePostal' placeholder=' Votre Code Postal'>
+						<input type='text' name='ville' placeholder=' Votre Ville'>
+					</div>
+					
+					<div>
+						<input type='text' name='know' placeholder=' Comment vous avez nous connus ?'>
+						<input type='text' name='age' placeholder=' Votre Age'>
+					</div>
+					<div>
+					<textarea class='text fullWidth' placeholder=' Votre message'></textarea>
+					</div>
+					<input type='button' value='Envoyer' onclick='Check();' id='submitButton'>
+					
+				</form>
+			</div>
+			
+			<div id='infoVideo'>
+			
+				<div class='paper'>
+					<h1>Une autre information ?</h1>
+					<div class='paperContainer'>
+						<p><u>Nous sommes aussi joignable:</u></p>
+						-<a href='mailto:contact@laplateforme.io'> Nous envoyer un mail</a>
+						<p>- Au 04.84.89.43.69 du lundi au vendredi de 9h à  24h</p>
+						<div id='socialPic'>
+							<aside>- Sur les réseaux sociaux:</aside>
+							<a href='#'><img src='Images/socialLogo.png'/></a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class='paper'>
+					
+					<iframe width="480" height="350" src="https://www.youtube.com/embed/8U4CCAFLqEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					
+				</div>
+			</div>
+			
+        </section>
+        
+    </body>
+    
+</html>
